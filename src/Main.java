@@ -3,9 +3,9 @@ public class Main {
         BmiService service = new BmiService();
         double growthMtr = 1.90;
         int weightKg = 98;
-        double index = service.calculate(weightKg,growthMtr);
+        double index = service.calculate(weightKg, growthMtr);
 
-        System.out.println((int)index + " bmi-индекс");
+        System.out.println((int) index + " bmi-индекс");
     }
 }
 
